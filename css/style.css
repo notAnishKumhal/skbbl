@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.7;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.justifyContent {
+    justify-content: space-between;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.padding {
+    padding: 15px 0;
+}
+
+.top {
+    background: #DDF4CD;
+}
+
+.navbar {
+    background: #024FA1;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.gap1 {
+    gap: 40px;
+}
+
+.green a{
+    background:#02A10E;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.orange a{
+    background: #B55B00;
+    padding: 10px 15px;
+    border-radius: 5px;0
+}
+
+.banner h1, .feature h1 {
+    color: #02A10E;
+}
+
+.banner p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 10px 10px 0;
+}
+
+.btn {
+    color: #ffffff;
+    background: #024FA1;
+    padding: 10px 25px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.icon img {
+    width: 72px;
+}
+.icon {
+    text-align: center;
+}
+
+.icon h2 {
+    color: #024FA1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 800px;
+    margin: 40px 0;
+}
+
+.quote {
+    background: url(https://skbbl.com.np/frontend/images/greenbg.jpg) no-repeat;
+    padding: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.quote-content {
+    width: 1050px;
+    margin: auto;
+}
+
+.footer-img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background: #024FA1;
+    padding: 30px;
+} 
+
+footer h3 {
+    color: #D1ECBF;
+}
+
+footer ul {
+    color: aliceblue;
+}
+
+footer ul {
+    line-height: 45px;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+.infoOfficer img {
+   width: 7rem;
+   margin: 24px 24px 24px 0;
+   border-radius: 5px;
+}
